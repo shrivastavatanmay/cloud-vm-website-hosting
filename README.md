@@ -88,13 +88,13 @@ http://<your-public-ip>
 ## 📸 Screenshots
 
 ### 🔹 Nginx Running on EC2
-![Nginx Status](./screenshots/nginx-status.png)
+![Nginx Status]([https://github.com/shrivastavatanmay/cloud-vm-website-hosting/blob/main/images/final-output.png))
 
 ### 🔹 Security Group Configuration
-![Security Group](./screenshots/security-group.png)
+![Security Group](https://github.com/shrivastavatanmay/cloud-vm-website-hosting/blob/main/images/security-group.png)
 
 ### 🔹 Final Website Output
-![Website Output](./screenshots/final-output.png)
+![Website Output](https://github.com/shrivastavatanmay/cloud-vm-website-hosting/blob/main/images/final-output.png)
 
 ---
 
