@@ -1,21 +1,21 @@
-# 🚀 Cloud VM Website Hosting (AWS EC2 + Nginx)
+# Cloud VM Website Hosting (AWS EC2 + Nginx)
 
-## 📌 Project Overview
+## Project Overview
 This project demonstrates how to host a static website on an AWS EC2 instance using Nginx as a web server.
 
 The goal was to understand core cloud concepts like instance provisioning, networking, and web server configuration.
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 - User accesses website via Public IP  
-- Traffic goes through **Security Group (Port 80)**  
+- Traffic goes through Security Group (Port 80)  
 - EC2 instance (Ubuntu) processes request  
 - Nginx serves static HTML content  
 
 ---
 
-## ⚙️ Steps Performed
+## Steps Performed
 
 ### 1. Launch EC2 Instance
 - OS: Ubuntu  
@@ -63,15 +63,15 @@ Paste your HTML and save.
 
 ---
 
-## 🖥️ Output
+## Output
 Website accessible via:
-```
+```bash
 http://<your-public-ip>
 ```
 
 ---
 
-## 🧠 What I Learned
+## What I Learned
 - How EC2 works in real-world deployment  
 - Importance of security groups (ports control everything)  
 - Basics of Nginx as a web server  
@@ -79,26 +79,26 @@ http://<your-public-ip>
 
 ---
 
-## ⚠️ Challenges Faced
+## Challenges Faced
 - Website not loading due to closed port 80  
 - Initial SSH connection issues (wrong key usage)  
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
-### 🔹 Nginx Running on EC2
-![Nginx Status]([https://github.com/shrivastavatanmay/cloud-vm-website-hosting/blob/main/images/final-output.png))
+### Nginx Running on EC2
+![Nginx Status](https://github.com/shrivastavatanmay/cloud-vm-website-hosting/blob/main/images/nginx-status.png)
 
-### 🔹 Security Group Configuration
+### Security Group Configuration
 ![Security Group](https://github.com/shrivastavatanmay/cloud-vm-website-hosting/blob/main/images/security-group.png)
 
-### 🔹 Final Website Output
+### Final Website Output
 ![Website Output](https://github.com/shrivastavatanmay/cloud-vm-website-hosting/blob/main/images/final-output.png)
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - AWS EC2  
 - Ubuntu Linux  
 - Nginx  
@@ -106,11 +106,10 @@ http://<your-public-ip>
 
 ---
 
-## 🔗 Project Link
-👉 https://github.com/shrivastavatanmay/cloud-vm-website-hosting
+## Project Link
+https://github.com/shrivastavatanmay/cloud-vm-website-hosting
 
 ---
 
-## 👨‍💻 Author
-**Tanmay Srivastava**  
-Aspiring Cloud Engineer 🚀
+## Author
+Tanmay Srivastava
